@@ -1,0 +1,193 @@
+*{margin: 0px; padding: 0px;}
+body{
+	background-color: #ddd;
+}
+.box{
+	width: 800px;
+	height: auto;
+	margin:0 auto;
+	margin-top: 10px;
+	background-color: #fff;
+}
+.header{
+	width:800px;
+	height:100px;
+	
+}
+.header h1{
+	font-family: aero;
+	padding-top:27px;
+	padding-left: 30px;
+	font-size: 40px;
+
+}
+.header h5{
+	font-size: 15px;
+	padding-left: 80px;
+	font-style: italic;
+}
+
+.navigasi{
+	width: 800px;
+	height:50px;
+	background-color: black;
+}
+.navigasi ul{
+	list-style: none;
+}
+.navigasi ul li{
+	float: left;
+	padding-top: 10px;
+}
+.navigasi ul li a{
+	text-decoration: none;
+	padding:14px 16px;
+	font-family: agency FB;
+	color: #fff;
+	font-size:24px;
+
+
+}
+.navigasi ul li a:hover{
+	background-color: #47cfd8;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	transition-duration: 2s;
+}
+.slide{
+	width: 800px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+.slide .slideshow{
+	width: 1000%;
+	-webkit-animation:slideshow 10s infinite;
+	-moz-animation:slideshow 10s infinite;
+	-o-animation:slideshow 10s infinite;
+	animation: slideshow 10s infinite;
+}
+.slide .slideshow img{
+	float:left;
+}
+@-webkit-keyframes slideshow{
+	0%,10%,100%{margin-left: 0px}
+	20%,30%{margin-left: -800px}
+	40%,50%{margin-left: -1600px}
+	60%,70%{margin-left:-2400px}
+	80%{margin-left: 0px}
+}
+@-moz-keyframes slideshow{
+	0%,10%,100%{margin-left: 0px}
+	20%,30%{margin-left: -800px}
+	40%,50%{margin-left: -1600px}
+	60%,70%{margin-left:-2400px}
+	80%{margin-left: 0px}
+
+}
+@-o-keyframes slideshow{
+	0%,10%,100%{margin-left: 0px}
+	20%,30%{margin-left: -800px}
+	40%,50%{margin-left: -1600px}
+	60%,70%{margin-left:-2400px}
+	80%{margin-left: 0px}
+}
+.content{
+	float: left;
+	width:500px;
+	height: 500px;
+	background-color: white;
+}
+.content h1{
+	font-family: segoe ui;
+	padding-top: 10px;
+	padding-left:10px;
+}
+.content .tgl{
+	font-family: segoe ui;
+	padding: 15px;
+	margin-top: -20px;
+	color: #333;
+	font-size:13px;
+}
+.content .art{
+	font-family: segoe ui;
+	padding:15px;
+	color: #333;
+	text-align: justify;
+	text-indent: 30px;
+	word-spacing: 2px;
+}
+.sidebar{
+	float: right;
+	width: 300px;
+	height: 500px;
+	background-color: white;
+}
+.sidebar h2{
+	font-family: segoe ui;
+	padding-left: 140px;
+}
+.sidebar img{
+	width:130px;
+	height: 140px;
+	padding-left: 100px;
+	padding-top: 15px;
+}
+.sidebar .tabel1{
+	padding-top: 10px;
+}
+.sidebar .tabel1 td{
+	padding-left:20px;
+	font-family: segoe ui;
+	color: black;
+}
+.footer{
+	width:800px;
+	height: 50px;
+	float: left;
+	background-color: #000000;
+}
+.footer p{
+	font-family: segoe ui;
+	text-align:center;
+	color: #fff;
+	padding-top:13px;
+}
+.about h2{
+	font-family: segoe ui;
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size:30px;
+}
+.about p{
+	font-family: segoe ui;
+	padding-top:10px;
+	padding-left:10px;
+	text-indent:25px;
+	text-align: justify;
+}
+.artikel h2{
+	font-family: segoe ui;
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size:30px;
+}
+.artikel p{
+	font-family: segoe ui;
+	padding-top:10px;
+	padding-left:10px;
+	text-indent:25px;
+	text-align: justify;
+}
+.contact h2{
+	font-family: segoe ui;
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size:30px;
+}
+.contact table{
+	padding-left:20px;
+	padding-top:20px;
+	font-family: segoe ui;
+}
